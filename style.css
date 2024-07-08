@@ -1,0 +1,280 @@
+@font-face {
+    font-family: AvenirNextLTPro-Regular;
+    src: url(./assets/font/AvenirNextLTPro-Regular.otf);
+}
+
+/* @font-face {
+    font-family: Boska-Variable;
+    src: url(./assets/font/Boska-Italic.otf);
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.DashboardSection{
+    padding: 20px 20px 20px 70px;
+    background-color: #101010;
+    display: flex;
+    gap: 40px;
+}
+
+.userPart{
+    padding-top: 60px;
+}
+.userName {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.userEmail{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+    opacity: 50%;
+}
+
+.userImg{
+    width: 72px;
+    height: 72px;
+    border-radius: 20px;
+    
+}
+.userContainer{
+    position: relative;
+}
+.notify{
+    position: absolute;
+    background-color: #DC3434;
+    display: inline;
+    padding: 5px 8px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    top: -15px;
+    right: 60%;
+}
+.navItem{
+    list-style: none;
+    padding-top: 117px;
+}
+.navItem li a{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    /* padding: 30px 0 30px 0; */
+    /* margin: 30px 0; */
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.navWhite{
+    color: #FFFFFF;
+}
+.navOpacity{
+    opacity: 50%;
+
+}
+.navItem li{
+    padding: 15px 0 ;
+
+}
+
+
+.outletContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ExpensesParents{
+    background-color: #FFFFFF;
+    border-radius: 20px 0 0 20px;
+    padding: 60px 95px 35px 95px;
+}
+.ExpHeading{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+}
+.ExpTitle{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.ExpP{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.status{
+    padding: 46px 0;
+}
+
+.todaySectionTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #DEDEDE;
+}
+.today{
+    font-family: AvenirNextLTPro-Regular;
+    font-size: 18px;
+    line-height: 30px;
+}
+.todaydot{
+    font-size: 40px;
+    line-height: 20px;
+    opacity: 50%;
+}
+
+.itemContainer{
+    padding-top: 25px;
+    padding-bottom: 34px;
+}
+.iconPrents{
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    padding-bottom: 25px;
+}
+.itemIcon{
+    color: #FFFFFF;
+    background-color: #32A7E2;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.Transportation{
+    background-color: #B548C6;
+}
+.Housing{
+    background-color: #FF8700;
+}
+.Food{
+    background-color: #DC3434;
+}
+.Entertainment{
+    background-color: #4BA83D;
+}
+.itemTitle{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.itemDetails{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+.itemAmount{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.itemPrents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ExpBottom{
+    padding-top: 25px;
+}
+.progressSection{
+    padding: 76px 50px 60px 50px;
+    background-color: #F9FAFC;
+    border-radius: 0 20px 20px 0;
+}
+
+.progressHeading{
+    font-family: AvenirNextLTPro-Regular;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.file{
+   color: #31BA96;
+   width: 100%;
+}
+
+.titleContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.progressContainer{
+    padding-top: 33px;
+    padding-bottom: 46px;
+}
+.eachProgress{
+    padding-bottom: 30px;
+}
+.ProgressTitle{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 24px;
+    padding-bottom: 8px;
+}
+
+.tripCard{
+    background-color: #EDF0F6;
+    padding: 0 25px 25px 25px;
+    border-radius: 20px;
+}
+.CardImg{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: -20px; */
+}
+.img1{
+    margin-top: -25px;
+}
+.img2{
+    margin-top: -35px;
+}
+.tripTitle{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 8px;
+}
+
+.tripDetails{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    padding-bottom: 8px;
+}
+
+.tripBtn{
+    padding: 12px 0;
+    width: 100%;
+    background-color: #101010;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+}
+.tripBtn:hover {
+    background-color: #FFFFFF;
+    color: #101010;
+}

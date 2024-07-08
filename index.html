@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <main>
+        <div class="DashboardSection">
+            <div class="">
+                <div class="userPart">
+                    <div class="userContainer">
+                        <img class="userImg" src="./assets/image/profile copy.png" alt="">
+                        <div class="notify">4</div>
+                    </div>
+                    <h3 class="userName">Samantha</h3>
+                    <p class="userEmail">samantha@email.com</p>
+                </div>
+                <div class="">
+                    <ul class="navItem">
+                        <li class="navOpacity"><a href="">Dashboard</a></li>
+                        <li class="navWhite"><a href="">Expenses</a></li>
+                        <li class="navOpacity"><a href="">Wallets</a></li>
+                        <li class="navOpacity"><a href="">Summary</a></li>
+                        <li class="navOpacity"><a href="">Accounts</a></li>
+                        <li class="navOpacity"><a href="">Settings</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="outletContainer">
+                <div class="ExpensesParents">
+                    <div class="ExpHeading">
+                        <div class="">
+                            <h2 class="ExpTitle">Expenses</h2>
+                            <p class="ExpP">01 - 25 March, 2020</p>
+                        </div>
+                        <div class="">
+                            <img src="./assets/image/Users.png" alt="">
+                        </div>
+                    </div>
+                    <div class="status">
+                        <img src="./assets/image/Stats.png" alt="">
+                    </div>
+                    <div class="todaySectionTitle">
+                        <h4 class="today">Today</h4>
+                        <p class="todaydot">...</p>
+                    </div>
+                    <div class="itemContainer">
+                        <div class="itemPrents">
+                            <div class="iconPrents">
+                                <div class="itemIcon">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                </div>
+                                <div class="">
+                                    <h4 class="itemTitle">Grocery</h4>
+                                    <p class="itemDetails">5:12 pm  •  Belanja di pasar</p>
+                                </div>
+                            </div>
+                            <p class="itemAmount">-326.800</p>
+                        </div>
+                        <div class="itemPrents">
+                            <div class="iconPrents">
+                                <div class="itemIcon Transportation">
+                                    <i class="fa-solid fa-bus-simple"></i>
+                                </div>
+                                <div class="">
+                                    <h4 class="itemTitle">Transportation</h4>
+                                    <p class="itemDetails">5:12 pm  •  Naik bus umum</p>
+                                </div>
+                            </div>
+                            <p class="itemAmount">-15.000</p>
+                        </div>
+                        <div class="itemPrents">
+                            <div class="iconPrents">
+                                <div class="itemIcon Housing">
+                                    <i class="fa-solid fa-house"></i>
+                                </div>
+                                <div class="">
+                                    <h4 class="itemTitle">Housing</h4>
+                                    <p class="itemDetails">5:12 pm  •  Bayar Listrik</p>
+                                </div>
+                            </div>
+                            <p class="itemAmount">-185.750</p>
+                        </div>
+                    </div>
+                    <div class="todaySectionTitle">
+                        <h4 class="today">Monday, 23 March 2020</h4>
+                        <p class="todaydot">...</p>
+                    </div>
+                    <div class="ExpBottom">
+                        <div class="itemPrents">
+                            <div class="iconPrents">
+                                <div class="itemIcon Food">
+                                    <i class="fa-solid fa-bowl-food"></i>
+                                </div>
+                                <div class="">
+                                    <h4 class="itemTitle">Food and Drink</h4>
+                                    <p class="itemDetails">5:12 pm  •  Makan Steak</p>
+                                </div>
+                            </div>
+                            <p class="itemAmount">-156.000</p>
+                        </div>
+                        <div class="itemPrents">
+                            <div class="iconPrents">
+                                <div class="itemIcon Entertainment">
+                                    <i class="fa-solid fa-circle-play"></i>
+                                </div>
+                                <div class="">
+                                    <h4 class="itemTitle">Entertainment</h4>
+                                    <p class="itemDetails">5:12 pm  •  Nonton Bioskop</p>
+                                </div>
+                            </div>
+                            <p class="itemAmount">-35.200</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="progressSection">
+                    <h3 class="progressHeading">Where your money go?</h3>
+                    <div class="progressContainer">
+                        <div class="eachProgress">
+                            <div class="titleContainer">
+                                <p class="ProgressTitle">Food and Drinks</p>
+                                <p class="ProgressTitle">872.400</p>
+                            </div>
+                            <progress class="file" value="30" max="100"> 32% </progress>
+                        </div>
+                        <div class="eachProgress">
+                            <div class="titleContainer">
+                                <p class="ProgressTitle">Shopping</p>
+                                <p class="ProgressTitle">1.378.200</p>
+                            </div>
+                            <progress class="file" value="50" max="100"> </progress>
+                        </div>
+                        <div class="eachProgress">
+                            <div class="titleContainer">
+                                <p class="ProgressTitle">Housing</p>
+                                <p class="ProgressTitle">928.500</p>
+                            </div>
+                            <progress class="file" value="35" max="100"> </progress>
+                        </div>
+                        <div class="eachProgress">
+                            <div class="titleContainer">
+                                <p class="ProgressTitle">Transportation</p>
+                                <p class="ProgressTitle">420.700</p>
+                            </div>
+                            <progress class="file" value="25" max="100"> </progress>
+                        </div>
+                        <div class="eachProgress">
+                            <div class="titleContainer">
+                                <p class="ProgressTitle">Vehicle</p>
+                                <p class="ProgressTitle">520.000</p>
+                            </div>
+                            <progress class="file" value="30" max="100"> </progress>
+                        </div>
+                    </div>
+                    <div class="tripCard">
+                        <div class="CardImg">
+                            <div class="img1">
+                                <img class="" src="./assets/image/Illustration.png" alt="">
+                            </div>
+                            <div class="img2">
+                                <img src="./assets/image/Illustration (1).png" alt="">
+                            </div>
+                        </div>
+                        <div class="">
+                            <h4 class="tripTitle">Save more money</h4>
+                            <p class="tripDetails">eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                        </div>
+                        <button class="tripBtn">VIEW TIPS</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
